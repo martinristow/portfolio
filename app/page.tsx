@@ -1,18 +1,53 @@
 import Header from "@/app/components/Header/Header";
 
 export default function Home() {
-  return (
-    <>
-      <Header/>
+    return (
+        <>
+            <Header />
 
-        <main style={{ paddingTop: "var(--header-height)" }}>
-            <div id="top"        className="h-screen bg-card">Top</div>
-            <div id="about"      className="h-screen">About</div>
-            <div id="experience" className="h-screen">Experience</div>
-            <div id="skills"     className="h-screen">Skills</div>
-            <div id="projects"   className="h-screen">Projects</div>
-            <div id="contact"    className="h-screen">Contact</div>
-        </main>
-    </>
-  );
+            <main style={{ paddingTop: "var(--header-height)" }}>
+                <section
+                    id="top"
+                    className="h-screen bg-card scroll-mt-[var(--header-height)]"
+                >
+                    Top
+                </section>
+
+                <section
+                    id="about"
+                    className="h-screen scroll-mt-[var(--header-height)]"
+                >
+                    About
+                </section>
+
+                <section
+                    id="experience"
+                    className="h-screen scroll-mt-[var(--header-height)]"
+                >
+                    Experience
+                </section>
+
+                <section
+                    id="skills"
+                    className="h-screen scroll-mt-[var(--header-height)]"
+                >
+                    Skills
+                </section>
+
+                <section
+                    id="projects"
+                    className="h-screen scroll-mt-[var(--header-height)]"
+                >
+                    Projects
+                </section>
+
+                <section
+                    id="contact"
+                    className="h-screen scroll-mt-[var(--header-height)]"
+                >
+                    Contact
+                </section>
+            </main>
+        </>
+    );
 }
