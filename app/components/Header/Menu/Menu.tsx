@@ -37,7 +37,9 @@ const Navigation = () => {
                         <li key={name}>
                             <a
                                 href={link}
-                                onClick={() => setIsOpen(false)}
+                                onClick={() => {
+                                    setTimeout(() => setIsOpen(false), 10);
+                                }}
                                 className="text-sm tracking-[0.25em]"
                             >
                                 {name}
