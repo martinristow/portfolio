@@ -7,7 +7,7 @@ import {RxCross1} from "react-icons/rx";
 const Navigation = () => {
     const [isOpen, setIsOpen] = useState(false)
     return (
-        <div className="flex items-center justify-between h-full max-w-5xl mx-auto px-6">
+        <div className="flex items-center justify-between h-full max-w-6xl mx-auto px-6">
             <h3>
                 <a href="/" className="text-sm tracking-widest">MARTIN RISTOV</a>
             </h3>

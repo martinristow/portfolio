@@ -1,17 +1,13 @@
 import Header from "@/app/components/Header/Header";
+import TopSection from "@/app/components/TopSection/TopSection";
 
 export default function Home() {
     return (
         <>
             <Header />
 
-            <main style={{ paddingTop: "var(--header-height)" }}>
-                <section
-                    id="top"
-                    className="h-screen bg-card scroll-mt-[var(--header-height)]"
-                >
-                    Top
-                </section>
+            <main>
+                <TopSection/>
 
                 <section
                     id="about"
