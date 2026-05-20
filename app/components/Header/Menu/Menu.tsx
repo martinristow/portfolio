@@ -37,13 +37,7 @@ const Navigation = () => {
                         <li key={name}>
                             <a
                                 href={link}
-                                onClick={(e) => {
-                                    e.preventDefault();
-                                    setIsOpen(false);
-                                    setTimeout(() => {
-                                        document.querySelector(link)?.scrollIntoView({ behavior: "smooth" });
-                                    }, 300);
-                                }}
+                                onClick={() => setIsOpen(false)}
                                 className="text-sm tracking-[0.25em]"
                             >
                                 {name}
