@@ -17,8 +17,8 @@ const AboutSection = () => {
                     </div>
 
                     <div className="flex flex-col">
-                        <h1 className="text-4xl md:text-6xl tracking-normal font-serif">A quiet <br />obsession with</h1>
-                        <h1 className="text-4xl md:text-6xl italic tracking-normal text-accent font-serif">craft.</h1>
+                        <h1 className="text-5xl md:text-6xl tracking-normal font-serif">A quiet <br />obsession with</h1>
+                        <h1 className="text-5xl md:text-6xl italic tracking-normal text-accent font-serif">craft.</h1>
                     </div>
                 </div>
 
