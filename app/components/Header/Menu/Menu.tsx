@@ -9,7 +9,7 @@ const Navigation = () => {
     return (
         <div className="flex items-center justify-between h-full max-w-6xl mx-auto px-6">
             <h3>
-                <a href="/" className="text-sm tracking-widest">MARTIN RISTOV</a>
+                <a href="/" className="text-md tracking-widest">MARTIN RISTOV</a>
             </h3>
             <ul className="hidden md:flex items-center gap-8">
                 {MENU.map(({name, link}) => (
