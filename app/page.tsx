@@ -1,5 +1,6 @@
 import Header from "@/app/components/Header/Header";
 import TopSection from "@/app/components/TopSection/TopSection";
+import AboutSection from "@/app/components/AboutSection/AboutSection";
 
 export default function Home() {
     return (
@@ -9,12 +10,7 @@ export default function Home() {
             <main>
                 <TopSection/>
 
-                <section
-                    id="about"
-                    className="h-screen scroll-mt-[var(--header-height)]"
-                >
-                    About
-                </section>
+                <AboutSection/>
 
                 <section
                     id="experience"

@@ -31,7 +31,7 @@ const TopSection = () => {
                             <p>View Projects</p>
                             <FaArrowRight className="h-4 w-4" />
                         </a>
-                        <button className="uppercase py-2.5 px-8 cursor-pointer text-black border border-black/30">Contact Me</button>
+                        <a href="#contact" className="text-center uppercase py-2.5 px-8 cursor-pointer text-black border border-black/30">Contact Me</a>
                     </div>
 
                 </div>
