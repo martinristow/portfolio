@@ -9,8 +9,8 @@ const TopSection = () => {
         >
             <div className="flex flex-col lg:flex-row items-center justify-between gap-6 min-h-screen pt-0 lg:pt-6  pb-[var(--header-height)] max-w-6xl mx-auto px-6 font-serif">
 
-                <div className="flex flex-col gap-5 lg:gap-10">
-                    {/*<h5 className="uppercase tracking-widest text-sm">Portfolio <span className="text-accent font-semibold">— MMXXVI</span></h5>*/}
+                <div className="flex flex-col gap-5 lg:gap-8">
+                    <h5 className="uppercase tracking-widest text-sm">Portfolio <span className="text-accent font-semibold">— MMXXVI</span></h5>
                     <div className="flex flex-col">
                         <h1 className="text-7xl md:text-9xl tracking-normal font-serif">Martin</h1>
                         <h1 className="text-7xl md:text-9xl italic tracking-normal text-accent font-serif">Ristov</h1>
