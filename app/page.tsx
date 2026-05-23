@@ -3,6 +3,7 @@ import TopSection from "@/app/components/TopSection/TopSection";
 import AboutSection from "@/app/components/AboutSection/AboutSection";
 import ExperienceSection from "@/app/components/ExperienceSection/ExperienceSection";
 import SkillsSection from "@/app/components/SkillsSection/SkillsSection";
+import ProjectsSection from "@/app/components/ProjectsSection/ProjectsSection";
 
 export default function Home() {
     return (
@@ -18,13 +19,8 @@ export default function Home() {
 
                 <SkillsSection/>
 
+                <ProjectsSection/>
 
-                <section
-                    id="projects"
-                    className="h-screen scroll-mt-[var(--header-height)]"
-                >
-                    Projects
-                </section>
 
                 <section
                     id="contact"
