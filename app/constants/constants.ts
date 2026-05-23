@@ -25,3 +25,7 @@ export const MENU: MenuProps[] = [
         link: "#contact",
     }
 ]
+
+export const FRONTEND: string[] = ["Next.js", 'React.js', 'JavaScript', 'Typescript', 'Tailwind CSS', 'Webflow']
+export const BACKEND: string[] = ["Python", 'FastAPI', 'Flask', 'PostgreSQL', 'REST APIs']
+export const TOOLS_AND_CRAFT: string[] = ["Git", 'Linux', 'Docker', 'Postman API']

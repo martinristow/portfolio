@@ -1,6 +1,8 @@
 import Header from "@/app/components/Header/Header";
 import TopSection from "@/app/components/TopSection/TopSection";
 import AboutSection from "@/app/components/AboutSection/AboutSection";
+import ExperienceSection from "@/app/components/ExperienceSection/ExperienceSection";
+import SkillsSection from "@/app/components/SkillsSection/SkillsSection";
 
 export default function Home() {
     return (
@@ -12,19 +14,10 @@ export default function Home() {
 
                 <AboutSection/>
 
-                <section
-                    id="experience"
-                    className="h-screen scroll-mt-[var(--header-height)]"
-                >
-                    Experience
-                </section>
+                <ExperienceSection/>
 
-                <section
-                    id="skills"
-                    className="h-screen scroll-mt-[var(--header-height)]"
-                >
-                    Skills
-                </section>
+                <SkillsSection/>
+
 
                 <section
                     id="projects"
