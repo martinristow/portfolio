@@ -26,7 +26,7 @@ const Footer = () => {
                         text-muted-foreground
                     "
                 >
-                    Crafted with care · Made in Skopje
+                    Crafted with care · Made in Sveti Nikole
                 </h3>
             </div>
         </footer>
