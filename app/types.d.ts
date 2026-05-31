@@ -3,3 +3,8 @@ interface MenuProps {
     name: string;
     link: string;
 }
+
+interface SectionNumber {
+    number: string
+    title: string
+}

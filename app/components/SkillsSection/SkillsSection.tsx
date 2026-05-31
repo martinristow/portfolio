@@ -1,5 +1,6 @@
 import Skills from "@/app/components/SkillsSection/Skills/Skills";
 import {FRONTEND, BACKEND, TOOLS_AND_CRAFT} from "@/app/constants/constants";
+import SectionNumber from "@/app/components/Parts/SectionNumber/SectionNumber";
 
 const SkillsSection = () => {
 
@@ -12,13 +13,8 @@ const SkillsSection = () => {
 
                 {/* HEADING */}
                 <div className="flex flex-col gap-5 lg:gap-8">
-                    <div className="flex items-center gap-2">
-                        <h5 className="uppercase tracking-widest text-xl leading-none">03</h5>
-                        <div className="flex items-center gap-2">
-                            <span className="block w-6 md:w-10 h-0.5 bg-accent self-center"></span>
-                            <h3 className="uppercase tracking-widest leading-none">Skills</h3>
-                        </div>
-                    </div>
+                    <SectionNumber number={"03"} title={"Skills"} />
+
                     <h1 className="text-4xl md:text-5xl lg:text-6xl tracking-normal font-serif">
                         The instruments
                         of the{" "}

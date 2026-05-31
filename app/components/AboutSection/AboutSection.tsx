@@ -1,3 +1,5 @@
+import SectionNumber from "@/app/components/Parts/SectionNumber/SectionNumber";
+
 const AboutSection = () => {
     return (
         <section
@@ -8,13 +10,7 @@ const AboutSection = () => {
 
                 <div className="flex flex-col gap-5 lg:gap-8">
 
-                    <div className="flex items-center gap-2">
-                        <h5 className="uppercase tracking-widest text-xl leading-none">01</h5>
-                        <div className="flex items-center gap-2">
-                            <span className="block w-6 md:w-10 h-0.5 bg-accent self-center"></span>
-                            <h3 className="uppercase tracking-widest leading-none">About</h3>
-                        </div>
-                    </div>
+                    <SectionNumber number={"01"} title={"About"}/>
 
                     <div className="flex flex-col">
                         <h1 className="text-5xl md:text-6xl tracking-normal font-serif">A quiet <br />obsession with</h1>

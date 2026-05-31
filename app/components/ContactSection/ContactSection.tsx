@@ -1,6 +1,7 @@
 'use client'
 
 import { useRef } from 'react'
+import SectionNumber from "@/app/components/Parts/SectionNumber/SectionNumber";
 
 const ContactSection = () => {
     const nameRef = useRef<HTMLInputElement>(null)
@@ -26,19 +27,7 @@ const ContactSection = () => {
                 {/* HEADING */}
                 <div className="flex flex-col gap-5 lg:gap-10 flex-shrink-0 lg:max-w-md">
 
-                    <div className="flex items-center gap-2">
-                        <h5 className="uppercase tracking-widest text-xl leading-none">
-                            05
-                        </h5>
-
-                        <div className="flex items-center gap-2">
-                            <span className="block w-6 md:w-10 h-0.5 bg-accent self-center"></span>
-
-                            <h3 className="uppercase tracking-widest leading-none">
-                                Contact
-                            </h3>
-                        </div>
-                    </div>
+                    <SectionNumber number={"05"} title={"Contact Section"} />
 
                     <div className="flex flex-col gap-2">
                         <h1 className="text-5xl md:text-6xl lg:text-7xl tracking-normal font-serif">
