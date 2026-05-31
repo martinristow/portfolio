@@ -14,3 +14,12 @@ interface SectionHeading {
     title2?: string;
     title3?: string;
 }
+
+interface StatItemData {
+    title: string;
+    description: string;
+}
+
+interface StatItemProps extends StatItemData{
+    id: number;
+}
