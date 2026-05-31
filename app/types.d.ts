@@ -23,3 +23,20 @@ interface StatItemData {
 interface StatItemProps extends StatItemData{
     id: number;
 }
+
+interface EducationBlockProps {
+    institution: string;
+    date: string;
+    degree: string;
+}
+
+interface CompanyRoles {
+    title: string;
+    date: string;
+    description: string;
+}
+
+interface CompanyName {
+    companyName: string;
+    date: string;
+}
