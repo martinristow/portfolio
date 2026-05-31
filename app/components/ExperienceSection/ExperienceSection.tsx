@@ -1,4 +1,6 @@
 import SectionNumber from "@/app/components/Parts/SectionNumber/SectionNumber";
+import SectionHeading from "@/app/components/Parts/SectionHeading/SectionHeading";
+import SectionHeaderV1 from "@/app/components/Parts/SectionHeading/SectionHeaderV1";
 
 const ExperienceSection = () => {
 
@@ -13,10 +15,7 @@ const ExperienceSection = () => {
                 <div className="flex flex-col gap-5 lg:gap-8">
                     <SectionNumber number={"02"} title={"Experience"}/>
 
-                    <h1 className="text-4xl md:text-5xl lg:text-6xl tracking-normal font-serif">
-                        A short, deliberate{" "}
-                        <span className="italic tracking-normal text-accent">chronology.</span>
-                    </h1>
+                    <SectionHeaderV1 title1={"A short, deliberate"} title2={"chronology"} />
                 </div>
 
                 {/* WORK */}

@@ -1,6 +1,7 @@
 import Skills from "@/app/components/SkillsSection/Skills/Skills";
 import {FRONTEND, BACKEND, TOOLS_AND_CRAFT} from "@/app/constants/constants";
 import SectionNumber from "@/app/components/Parts/SectionNumber/SectionNumber";
+import SectionHeaderV1 from "@/app/components/Parts/SectionHeading/SectionHeaderV1";
 
 const SkillsSection = () => {
 
@@ -15,11 +16,7 @@ const SkillsSection = () => {
                 <div className="flex flex-col gap-5 lg:gap-8">
                     <SectionNumber number={"03"} title={"Skills"} />
 
-                    <h1 className="text-4xl md:text-5xl lg:text-6xl tracking-normal font-serif">
-                        The instruments
-                        of the{" "}
-                        <span className="italic tracking-normal text-accent">trade.</span>
-                    </h1>
+                    <SectionHeaderV1 title1={"The instruments of the"} title2={"trade"} />
                 </div>
 
                 <div className="">

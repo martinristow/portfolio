@@ -1,4 +1,5 @@
 import SectionNumber from "@/app/components/Parts/SectionNumber/SectionNumber";
+import SectionHeading from "@/app/components/Parts/SectionHeading/SectionHeading";
 
 const AboutSection = () => {
     return (
@@ -11,11 +12,9 @@ const AboutSection = () => {
                 <div className="flex flex-col gap-5 lg:gap-8">
 
                     <SectionNumber number={"01"} title={"About"}/>
-
-                    <div className="flex flex-col">
-                        <h1 className="text-5xl md:text-6xl tracking-normal font-serif">A quiet <br />obsession with</h1>
-                        <h1 className="text-5xl md:text-6xl italic tracking-normal text-accent font-serif">craft.</h1>
-                    </div>
+                    <SectionHeading title1={"A quiet"}
+                                    title2={"obsession with"}
+                                    title3={"craft"}/>
                 </div>
 
                 <div className="flex flex-col gap-6 max-w-xl">
